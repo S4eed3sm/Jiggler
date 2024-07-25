@@ -89,7 +89,7 @@ def human_like_mouse_move(x, y):
 
     for point in points:
         pyautogui.moveTo(point[0], point[1], duration=0.001)
-        time.sleep(random.uniform(0.01, 0.03))
+        time.sleep(random.uniform(0.001, 0.003))
 
 
 last_pause_time = time.time()
